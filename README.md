@@ -4,3 +4,17 @@ Fin Wolf, Jude Lowe, Katie Gonzalez
 Sittin’ on the Boat in the Bays: Spatial variability of the Stagecoach Reservoir water column in bays and coves
 
 Dedicated to Otis Redding
+
+Invalid measurements:
+Skipping file due to invalid sample: CC2435009_20250515_205151.csv
+Skipping file due to invalid sample: CC2435009_20250516_180225.csv
+Skipping file due to invalid sample: CC2435009_20250517_163909.csv
+Skipping file due to invalid sample: CC2435009_20250517_171247.csv
+Skipping file due to invalid sample: CC2435009_20250517_194351.csv
+Skipping file due to invalid sample: CC2435009_20250517_194449.csv
+Skipping file due to invalid sample: CC2435009_20250519_171944.csv
+Skipping file due to invalid sample: CC2435009_20250519_172106.csv
+Skipping file due to invalid sample: CC2435009_20250519_172625.csv
+Skipping file due to invalid sample: CC2435009_20250519_172818.csv
+Skipping file due to invalid sample: CC2435009_20250519_172856.csv
+Skipping file due to invalid sample: CC2435009_20250519_172932.csv
