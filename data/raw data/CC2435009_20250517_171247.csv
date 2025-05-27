@@ -1,0 +1,29 @@
+% Device,CC2435009
+% File name,CC2435009_20250517_171247
+% Cast time (UTC),2025-05-17 17:12:47
+% Cast time (local),2025-05-17 11:12:47
+% Sample type,Invalid
+% Cast data,Processed
+% Location source,GPS
+% Default latitude,32
+% Default altitude,0
+% Start latitude,40.2854948
+% Start longitude,-106.8536113
+% Start altitude,2182.4560546875
+% Start GPS horizontal error(Meter),8.395000457763672
+% Start GPS vertical error(Meter),7.1840000152587888
+% Start GPS number of satellites,13
+% End latitude,40.2855839
+% End longitude,-106.8535792
+% End altitude,2169.6149902343752
+% End GPS horizontal error(Meter),20.000999450683592
+% End GPS vertical error(Meter),24.604000091552736
+% End GPS number of satellites,11
+% Cast duration (Seconds),0
+% Samples per second,5
+% Electronics calibration date,0001-01-01
+% Conductivity calibration date,2024-10-09
+% Temperature calibration date,2024-10-07
+% Pressure calibration date,2024-09-17
+% 
+Pressure (Decibar),Depth (Meter),Temperature (Celsius),Conductivity (MicroSiemens per Centimeter),Specific conductance (MicroSiemens per Centimeter),Salinity (Practical Salinity Scale),Sound velocity (Meters per Second),Density (Kilograms per Cubic Meter)
