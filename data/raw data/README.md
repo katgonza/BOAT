@@ -3,7 +3,7 @@ Stagecoach Reservoir in Routt County, CO. Some measurements were invalid and the
 the data upload. Those files are listed below.
 
 Invalid measurements: \n
-Skipping file due to invalid sample: CC2435009_20250515_205151.csv \n
+Skipping file due to invalid sample: CC2435009_20250515_205151.csv \
 Skipping file due to invalid sample: CC2435009_20250516_180225.csv \n
 Skipping file due to invalid sample: CC2435009_20250517_163909.csv \n
 Skipping file due to invalid sample: CC2435009_20250517_171247.csv \n
