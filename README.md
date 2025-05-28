@@ -5,6 +5,8 @@
 >Maybe replace with abstract eventually?\
 **Description:** 
 
+[AGU Abstract Link](https://docs.google.com/document/d/1wtGRIvyiCGJO4AiTk6FkhmpDdTv5TPpi1x-dwEx88zE/edit?tab=t.0)
+
 ## Timeline
 | Day                  | Goals |
 | ---                  |  ---  |
