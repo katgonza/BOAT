@@ -20,5 +20,5 @@
 | June 5, 2025 | Slideshow due by 1230 and final presentation at 1400 |
 | June 6, 2025 | Final AGU-Style short abstract due at 1700 |
 
-*Dedicated to Otis Redding*
+*Dedicated to Otis Redding* \
 *Special thanks to Colin Beyers and Bia Villas Boas for their expert guidance*
