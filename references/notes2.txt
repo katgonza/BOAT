@@ -1,0 +1,87 @@
+notes2
+
+TODAY'S GOALS
+make a side-by-side of the map and the profiles, color-coded?
+
+create isobath plots of the temperature
+
+take a look at the density profiles 
+	interpret the compensation of temperature and conductivity
+	colder and less conductive has the same density as warmer and more conductive water
+
+create a jupyter book as a web-based application for our map
+
+HRRR weather - cold email grad students
+	undergrad in GP working with bia on a lake project, trying to get HRRR data, any advice on how to get 	previous forecasts over stagecoach
+
+CTD transect
+	define depth bins of half a meter
+	choose certain distance in km
+	create section spacings
+	average the points that all fall in each section
+	plot the section
+	watch out for outliers
+		seems to be horizontal variability, our call to average those into these plots
+
+conclusions include 
+
+	actual conclusions
+		variability in the reservoir is so large and the weather is so local that it is hard to 		extrapolate the actual conditions of the reservoir
+		
+				
+	future works and wishes
+		get closer to the Yampa
+		actually taking water samples
+		build a schedule with times and locations of measurements 
+		have 2 CTDs for simultaneous dock and cove measurements
+		meteorological instruments
+		traditional methods- GPR on the lake???? seismic near inlets??? QZ adapted to freshwater???
+
+equation of state
+	only after redo the profiles by averaging the profiles and adding density
+		
+11AM MEETING NOTES
+bia's interpretation: 
+
+	overall tendency of the shallower profiles to have warmer at the surface
+		could be diurnal cycles, more efficient at warming the water at shallower depths
+
+	think more thoroughly about the spatial relationship between points
+
+	half a degree is something we could consider a change within precision
+	
+	if we're observing a layer of fresh water on the top, 
+		could be rainwater or slightly warmer water that is flowing from the drain pipe instead of 		the inlet
+
+		the water from the snowmelt is so much colder that it will automatically sink straight to the 		bottom
+
+	temperature and density follow each other, different units tho
+	is the conductivity behaving the in same way?
+		higher conductivity but less dense???
+		low conductivity 
+
+	conductivity is playing more of a role in Harding cove but has a larger range of conductivities
+	no confirmation of the pipe vs the inlet
+		TASK: equation of state, how much of a change in conductivity corresponds to the density
+			fix the temperature, change the conductivity, and see how much change in density we 			see
+			do the same for temperature, but not useful for pressure
+	
+	the deeper we go, the less variable- boring but useful to show
+		isobaths will be useful here
+		fine if you lose resolution
+
+	trivial to turn into xarray, and do the xhistogram from xarray for the CTD transect
+		doesn't give you counts, but will arrange into 2D bins
+
+BIN the colors in the map of conductivities and temperature
+	0.05 range?
+	use the manual to explore more about the precision and accuracy of the instrument
+
+higher conductivity in the center of the reservoir?
+
+isobath plots
+	
+if the water is at the surface
+	if it is colder, it needs to be less conductive to balance the density
+
+
