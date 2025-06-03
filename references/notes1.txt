@@ -1,0 +1,31 @@
+compare coves with inlets and without inlets
+	harding vs glizzy
+	use close shallow measurements to measure river temperatures at inlets
+
+create better figures
+	cm ocean colormap
+	plot profiles on the same plot
+
+recommendations
+	things to write down in the future
+	equipment and mobile lab processes for geological sampling of the water
+
+tidbits
+	keystone does have a drainpipe inlet
+	specific conductance of yampa from USGS 40-50 mS/cm, we didn't go near at all
+		might support that the inflows are primarily fresh snowmelt
+
+TODAY
+	determine why we care (for the abstract)
+		no freshwater, cause HABs? determine what Blue-Green
+		because it's cool!
+	
+	compare HAR and MOR with inlet to KEY and GLZ w/o inlet
+		create conductivity and temperature cross-sections at depth
+		profile points of interest within each cove on the same plot for conductivity and temp
+		'How do inlets change conductivity and temperature within a cove?'
+
+	ask other group about the weather on the 17th and 18th
+		
+		
+	
