@@ -1,0 +1,82 @@
+Traceback (most recent call last):
+  File "C:\Users\14027\anaconda3\Lib\site-packages\jupyter_cache\executors\utils.py", line 58, in single_nb_execution
+    executenb(
+  File "C:\Users\14027\anaconda3\Lib\site-packages\nbclient\client.py", line 1305, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14027\anaconda3\Lib\site-packages\jupyter_core\utils\__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14027\anaconda3\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\14027\anaconda3\Lib\site-packages\nbclient\client.py", line 705, in async_execute
+    await self.async_execute_cell(
+  File "C:\Users\14027\anaconda3\Lib\site-packages\nbclient\client.py", line 1058, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "C:\Users\14027\anaconda3\Lib\site-packages\nbclient\client.py", line 914, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+total_df = total_df.drop('TestType_x', axis=1)
+total_df = total_df.drop('ImagePath_y', axis=1)
+total_df = total_df.drop('TestType_y', axis=1)
+total_df = total_df.drop('ImagePath_x', axis=1)
+
+------------------
+
+
+[1;31m---------------------------------------------------------------------------[0m
+[1;31mKeyError[0m                                  Traceback (most recent call last)
+Cell [1;32mIn[5], line 1[0m
+[1;32m----> 1[0m total_df [38;5;241m=[39m total_df[38;5;241m.[39mdrop([38;5;124m'[39m[38;5;124mTestType_x[39m[38;5;124m'[39m, axis[38;5;241m=[39m[38;5;241m1[39m)
+[0;32m      2[0m total_df [38;5;241m=[39m total_df[38;5;241m.[39mdrop([38;5;124m'[39m[38;5;124mImagePath_y[39m[38;5;124m'[39m, axis[38;5;241m=[39m[38;5;241m1[39m)
+[0;32m      3[0m total_df [38;5;241m=[39m total_df[38;5;241m.[39mdrop([38;5;124m'[39m[38;5;124mTestType_y[39m[38;5;124m'[39m, axis[38;5;241m=[39m[38;5;241m1[39m)
+
+File [1;32m~\anaconda3\Lib\site-packages\pandas\core\frame.py:5581[0m, in [0;36mDataFrame.drop[1;34m(self, labels, axis, index, columns, level, inplace, errors)[0m
+[0;32m   5433[0m [38;5;28;01mdef[39;00m [38;5;21mdrop[39m(
+[0;32m   5434[0m     [38;5;28mself[39m,
+[0;32m   5435[0m     labels: IndexLabel [38;5;241m|[39m [38;5;28;01mNone[39;00m [38;5;241m=[39m [38;5;28;01mNone[39;00m,
+[1;32m   (...)[0m
+[0;32m   5442[0m     errors: IgnoreRaise [38;5;241m=[39m [38;5;124m"[39m[38;5;124mraise[39m[38;5;124m"[39m,
+[0;32m   5443[0m ) [38;5;241m-[39m[38;5;241m>[39m DataFrame [38;5;241m|[39m [38;5;28;01mNone[39;00m:
+[0;32m   5444[0m [38;5;250m    [39m[38;5;124;03m"""[39;00m
+[0;32m   5445[0m [38;5;124;03m    Drop specified labels from rows or columns.[39;00m
+[0;32m   5446[0m 
+[1;32m   (...)[0m
+[0;32m   5579[0m [38;5;124;03m            weight  1.0     0.8[39;00m
+[0;32m   5580[0m [38;5;124;03m    """[39;00m
+[1;32m-> 5581[0m     [38;5;28;01mreturn[39;00m [38;5;28msuper[39m()[38;5;241m.[39mdrop(
+[0;32m   5582[0m         labels[38;5;241m=[39mlabels,
+[0;32m   5583[0m         axis[38;5;241m=[39maxis,
+[0;32m   5584[0m         index[38;5;241m=[39mindex,
+[0;32m   5585[0m         columns[38;5;241m=[39mcolumns,
+[0;32m   5586[0m         level[38;5;241m=[39mlevel,
+[0;32m   5587[0m         inplace[38;5;241m=[39minplace,
+[0;32m   5588[0m         errors[38;5;241m=[39merrors,
+[0;32m   5589[0m     )
+
+File [1;32m~\anaconda3\Lib\site-packages\pandas\core\generic.py:4788[0m, in [0;36mNDFrame.drop[1;34m(self, labels, axis, index, columns, level, inplace, errors)[0m
+[0;32m   4786[0m [38;5;28;01mfor[39;00m axis, labels [38;5;129;01min[39;00m axes[38;5;241m.[39mitems():
+[0;32m   4787[0m     [38;5;28;01mif[39;00m labels [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
+[1;32m-> 4788[0m         obj [38;5;241m=[39m obj[38;5;241m.[39m_drop_axis(labels, axis, level[38;5;241m=[39mlevel, errors[38;5;241m=[39merrors)
+[0;32m   4790[0m [38;5;28;01mif[39;00m inplace:
+[0;32m   4791[0m     [38;5;28mself[39m[38;5;241m.[39m_update_inplace(obj)
+
+File [1;32m~\anaconda3\Lib\site-packages\pandas\core\generic.py:4830[0m, in [0;36mNDFrame._drop_axis[1;34m(self, labels, axis, level, errors, only_slice)[0m
+[0;32m   4828[0m         new_axis [38;5;241m=[39m axis[38;5;241m.[39mdrop(labels, level[38;5;241m=[39mlevel, errors[38;5;241m=[39merrors)
+[0;32m   4829[0m     [38;5;28;01melse[39;00m:
+[1;32m-> 4830[0m         new_axis [38;5;241m=[39m axis[38;5;241m.[39mdrop(labels, errors[38;5;241m=[39merrors)
+[0;32m   4831[0m     indexer [38;5;241m=[39m axis[38;5;241m.[39mget_indexer(new_axis)
+[0;32m   4833[0m [38;5;66;03m# Case for non-unique axis[39;00m
+[0;32m   4834[0m [38;5;28;01melse[39;00m:
+
+File [1;32m~\anaconda3\Lib\site-packages\pandas\core\indexes\base.py:7070[0m, in [0;36mIndex.drop[1;34m(self, labels, errors)[0m
+[0;32m   7068[0m [38;5;28;01mif[39;00m mask[38;5;241m.[39many():
+[0;32m   7069[0m     [38;5;28;01mif[39;00m errors [38;5;241m!=[39m [38;5;124m"[39m[38;5;124mignore[39m[38;5;124m"[39m:
+[1;32m-> 7070[0m         [38;5;28;01mraise[39;00m [38;5;167;01mKeyError[39;00m([38;5;124mf[39m[38;5;124m"[39m[38;5;132;01m{[39;00mlabels[mask][38;5;241m.[39mtolist()[38;5;132;01m}[39;00m[38;5;124m not found in axis[39m[38;5;124m"[39m)
+[0;32m   7071[0m     indexer [38;5;241m=[39m indexer[[38;5;241m~[39mmask]
+[0;32m   7072[0m [38;5;28;01mreturn[39;00m [38;5;28mself[39m[38;5;241m.[39mdelete(indexer)
+
+[1;31mKeyError[0m: "['TestType_x'] not found in axis"
+

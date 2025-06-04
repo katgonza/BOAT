@@ -1,0 +1,26 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+parts:
+  - caption: Main
+    chapters:
+      - file: markdowns/Background
+      - file: MAP
+      - file: notebooks/jlowe_notebook
+      - file: markdowns/DataCollection
+      - file: markdowns/Results
+      - file: markdowns/PhotoGallery
+      - file: markdowns/References
+      - file: markdowns/Acknowledgements
+
+  - caption: Code  
+    chapters:
+      - file: notebooks/CTD_CSV_df
+      - file: notebooks/EOS
+      - file: notebooks/EOS-2
+      - file: notebooks/Isobathymetry
+      - file: notebooks/KEYHARDOC_profiles
+      - file: notebooks/Map_profiles
